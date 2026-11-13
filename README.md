@@ -33,7 +33,7 @@ This approach is efficient, scalable, and provides a seamless experience for all
 ### Prerequisites
 
 - React Js 16 or later
-- Node 10 or later
+- Node 20.19 or later
 - Valid [VideoSDK Account](https://app.videosdk.live/signup)
 
 ### Installation
@@ -59,7 +59,7 @@ npm install
    - Create a `.env` file in the root directory and add:
 
    ```
-   REACT_APP_VIDEOSDK_AUTH_TOKEN=your_token_here
+   VITE_VIDEOSDK_AUTH_TOKEN=your_token_here
    ```
 
    - Alternatively, you can directly update the token in `src/API.js`
